@@ -89,10 +89,10 @@ nav .nav-content {
 }
 
 .ul .li {
-  display: flex;
-  padding: 8px;
-  align-items: center;
-  justify-content: space-around;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .ul .li .image img {

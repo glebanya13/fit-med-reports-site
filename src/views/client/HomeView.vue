@@ -5,7 +5,9 @@
     <button type="button" class='btn home-btn'>Пройти тестирование</button>
 
     <p class="home-opis">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae efficitur nunc, a auctor est. Sed tortor ipsum, sollicitudin ac eros eu, volutpat tristique risus. Integer et est sed nisi efficitur scelerisque in fermentum metus.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae efficitur nunc, a auctor est. Sed tortor ipsum,
+      sollicitudin ac eros eu, volutpat tristique risus. Integer et est sed nisi efficitur scelerisque in fermentum
+      metus.
     </p>
   </div>
 </template>
