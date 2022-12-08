@@ -69,3 +69,48 @@ nav .nav-content {
     width: 30px;
     height: 30px;
 }
+
+.nav-links-menu .notification {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    background: #00ABAA;
+    border-radius: 100px;
+}
+
+.nav-menu {
+    background: #FFFFFF;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    margin-left: -350px;
+}
+
+.ul .li {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ul .li .image img {
+    width: 75px;
+}
+
+.ul .li .data {
+    display: grid;
+}
+
+.ul .li .data .name {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ul .li .data .opis {
+    margin-top: 13px;
+    font-size: 14px;
+    text-align: center;
+}

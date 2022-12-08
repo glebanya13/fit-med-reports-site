@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="home">
     <img class="home-image" src="../../assets/home/home.png" alt="">
 
     <button type="button" class='btn home-btn'>Пройти тестирование</button>
@@ -19,45 +19,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.container .home-image {
-  width: 100%;
-}
-
-.btn {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  min-width: 4.25rem;
-  min-height: 4.25rem;
-  border-radius: 9999px;
-  border: none;
-  background: #FDD615;
-  color: #000000;
-  cursor: pointer;
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.home-btn {
-  margin-top: 72px;
-}
-
-.home-opis {
-  margin-top: 22px;
-  margin-bottom: 174px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
-  max-width: 560px;
-}
+@import "../../styles/home.css";
 </style>

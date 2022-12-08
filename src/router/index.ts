@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import LoginView from '../views/LoginView.vue'
 import RegView from '../views/RegView.vue'
+import AwardsView from '../views/client/AwardsView.vue'
 import HomeView from '../views/client/HomeView.vue'
+import JournalView from '../views/client/JournalView.vue'
 import ReportsView from '../views/doctor/ReportsView.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -23,6 +25,22 @@ const routes: Array<RouteRecordRaw> = [
       authRequired: true
     },
     component: HomeView
+  },
+  {
+    path: '/journal',
+    name: 'journal',
+    meta: {
+      authRequired: true
+    },
+    component: JournalView
+  },
+  {
+    path: '/awards',
+    name: 'awards',
+    meta: {
+      authRequired: true
+    },
+    component: AwardsView
   },
   // Doctor
   {

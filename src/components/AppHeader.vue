@@ -20,16 +20,49 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" @click="modal = !modal">
                         <div class="nav-links-menu">
                             <img src="../assets/appheader/notification.png" alt="notification">
+                            <div class="notification"></div>
                         </div>
                     </a>
+                    <div class="nav-menu" v-show="modal">
+                        <div class="ul">
+                            <div class="li">
+                                <div class="image">
+                                    <img class="logo" src=".././assets/appheader/person.png" alt="person" />
+                                </div>
+                                <div class="data">
+                                    <span class="name">Lorem ipsum dolor</span>
+                                    <div class="opis">не забудьте принять таблетки</div>
+                                </div>
+                            </div>
+                            <div class="li">
+                                <div class="image">
+                                    <img class="logo" src=".././assets/appheader/person.png" alt="person" />
+                                </div>
+                                <div class="data">
+                                    <span class="name">Lorem ipsum dolor</span>
+                                    <div class="opis">не забудьте принять таблетки</div>
+                                </div>
+                            </div>
+                            <div class="li">
+                                <div class="image">
+                                    <img class="logo" src=".././assets/appheader/person.png" alt="person" />
+                                </div>
+                                <div class="data">
+                                    <span class="name">Lorem ipsum dolor</span>
+                                    <div class="opis">не забудьте принять таблетки</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <a href="#">
                         <div class="nav-links-menu">
                             <img src="../assets/appheader/chat.png" alt="chat">
+                            <div class="notification"></div>
                         </div>
                     </a>
                 </li>
@@ -46,6 +79,7 @@ export default defineComponent({
     name: 'AppHeader',
     data() {
         return {
+            modal: false,
             links: [
                 { title: "Дневник", path: "/journal" },
                 { title: "Награды", path: "/awards" },
