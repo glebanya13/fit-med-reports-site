@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img class="home-image" src="../assets/home/home.png" alt="">
+    <img class="home-image" src="../../assets/home/home.png" alt="">
 
     <button type="button" class='btn home-btn'>Пройти тестирование</button>
 

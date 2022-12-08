@@ -17,6 +17,9 @@
                     <div class="form-buttons">
                         <button class="button">Войти</button>
                     </div>
+                    <div class="form-link">
+                        <router-link to="/login" class="link">Имеете аккаунт? Войти</router-link>
+                    </div>
                 </div>
             </div>
             <div class="main-block__logo-block">
@@ -27,6 +30,14 @@
         </div>
     </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'RegView',
+});
+</script>
 
 <style scoped>
 @import "../styles/auth.css";
