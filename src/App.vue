@@ -1,7 +1,7 @@
 <template>
-  <AppHeader />
+  <AppHeader v-if="$route.meta.authRequired" />
   <router-view/>
-  <AppFooter />
+  <AppFooter v-if="$route.meta.authRequired" />
 </template>
 
 <script lang="ts">

@@ -52,7 +52,7 @@ export default defineComponent({
 
 .home-opis {
   margin-top: 22px;
-  margin-bottom: 74px;
+  margin-bottom: 174px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
