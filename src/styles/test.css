@@ -1,0 +1,65 @@
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test .test-image {
+    width: 100%;
+}
+
+.test-br {
+    padding: 25px;
+    background: #ECF6F8;
+}
+
+.test-li {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.test-li .data {
+    margin-top: 5px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.test-li .data .name {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.test-li .data .opis {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 370px;
+}
+
+.notes {
+    display: flex;
+    margin-top: -55px;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 63px;
+    width: 300px;
+    height: 230px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #ECF6F8;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.note .image {
+    padding-bottom: 20px;
+}

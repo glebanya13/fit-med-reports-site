@@ -84,7 +84,7 @@ export default defineComponent({
                 { title: "Дневник", path: "/journal" },
                 { title: "Награды", path: "/awards" },
                 { title: "Рекомендации", path: "/recommendations" },
-                { title: "Тесты", path: "/reports" },
+                { title: "Тесты", path: "/tests" },
                 { title: "Мои врачи", path: "/doctors" },
             ],
         }

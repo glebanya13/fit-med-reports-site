@@ -2,12 +2,12 @@
     <div class="reports">
         <div class="containers" v-for="item in items" :key="item.id">
             <div class="form-border">
-                <div class="form">
-                    <div class="form-fields">
-                        <div class="form-field">
+                <div class="form-ques">
+                    <div class="form-ques-fields">
+                        <div class="form-ques-field">
                             <input type="text" placeholder="Lorem ipsum dolor?">
                         </div>
-                        <div class="form-field answer-field">
+                        <div class="form-ques-field answer-field">
                             <input type="text" placeholder="4 варианта">
                         </div>
                     </div>
@@ -28,17 +28,17 @@
 
         <div class="containers">
             <div class="form-border form-repeat-border">
-                <div class="form">
-                    <div class="form-fields">
-                        <div class="form-field">
+                <div class="form-ques">
+                    <div class="form-ques-fields">
+                        <div class="form-ques-field">
                             <input type="text" placeholder="Повторять в день n раз">
                         </div>
-                        <div class="form-field answer-field">
+                        <div class="form-ques-field answer-field">
                             <input type="text" placeholder="Повторять в неделю n раз">
                         </div>
                     </div>
-                    <div class="form-fields tag-fields">
-                        <div class="form-field">
+                    <div class="form-ques-fields tag-fields">
+                        <div class="form-ques-field">
                             <input type="text" placeholder="Тэги">
                         </div>
                     </div>

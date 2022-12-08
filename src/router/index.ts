@@ -4,6 +4,7 @@ import RegView from '../views/RegView.vue'
 import AwardsView from '../views/client/AwardsView.vue'
 import HomeView from '../views/client/HomeView.vue'
 import JournalView from '../views/client/JournalView.vue'
+import TestsView from '../views/client/TestsView.vue'
 import ReportsView from '../views/doctor/ReportsView.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -41,6 +42,14 @@ const routes: Array<RouteRecordRaw> = [
       authRequired: true
     },
     component: AwardsView
+  },
+  {
+    path: '/tests',
+    name: 'tests',
+    meta: {
+      authRequired: true
+    },
+    component: TestsView
   },
   // Doctor
   {

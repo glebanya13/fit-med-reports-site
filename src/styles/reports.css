@@ -46,7 +46,7 @@
     min-height: 200px;
 }
 
-.form {
+.form-ques {
     margin: auto;
     min-width: 850px;
     min-height: 90px;
@@ -55,14 +55,14 @@
     /* padding-left: 35px; */
 }
 
-.form-fields {
+.form-ques-fields {
     margin-top: 25px;
     display: flex;
     flex-direction: row;
     align-items: initial;
 }
 
-.form-field {
+.form-ques-field {
     background: #ECF6F8;
     border-radius: 15px 15px 0px 0px;
     width: 400px;
@@ -74,7 +74,7 @@
     margin-left: 10px;
 }
 
-.form-fields input {
+.form-ques-fields input {
     border-radius: 15px 15px 0px 0px;
     display: flex;
     align-items: center;
@@ -82,8 +82,13 @@
     width: 400px;
     background-color: #ECF6F8;
     outline: none;
+    border: none;
     font-weight: 400;
     font-size: 30px;
+}
+
+.form-ques-field:first-child {
+    margin-bottom: 30px;
 }
 
 .tag-fields {
