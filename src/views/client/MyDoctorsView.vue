@@ -1,5 +1,5 @@
 <template>
-    <main class="main">
+    <main class="main" id="container">
         <div class="client">
             <div class="client__container">
                 <div class="client__inner">
@@ -51,9 +51,18 @@
   
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { useDoctorsStore } from '../../store/doctors'
 
 export default defineComponent({
+    setup() {
+        const store = useDoctorsStore()
+
+        return { store }
+    },
     name: 'MyDoctorsView',
+    created() {
+        this.store.get_doctors()
+    }
 });
 </script>
   

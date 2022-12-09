@@ -1,5 +1,5 @@
 <template>
-    <div class="chat">
+    <div class="chat" id="container">
         <div class="chat-block">
             <div class="chat-list-block">
                 <div class="chat-list-search">

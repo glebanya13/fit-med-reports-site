@@ -1,5 +1,5 @@
 <template>
-    <div class="tests">
+    <div class="tests" id="container">
         <div class="test">
             <img class="test-image" src="../../assets/tests/test.png" alt="test">
             <div class="notes">
@@ -74,15 +74,25 @@
                 </div>
             </div>
             <div class="test-br"></div>
+            <!-- {{store.showTests}} -->
         </div>
     </div>
 </template>
   
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { useTestsStore } from '../../store/tests'
 
 export default defineComponent({
+    setup() {
+        const store = useTestsStore()
+
+        return { store }
+    },
     name: 'TestsView',
+    created() {
+        this.store.get_tests()
+    }
 });
 </script>
   

@@ -1,5 +1,5 @@
 <template>
-    <div class="awards">
+    <div class="awards" id="container">
         <div class="awards-ul">
             <div class="awards-li">
                 <div class="award-container">

@@ -50,7 +50,7 @@
 
         <div class="containers save-icon">
             <div class="icons">
-                <div class="icon">
+                <div class="icon" @click="store.post_reports">
                     <img src="../../assets/reports/save.png" alt="save">
                 </div>
             </div>
@@ -60,8 +60,14 @@
   
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { useReportsStore } from '../../store/reports'
 
 export default defineComponent({
+    setup() {
+        const store = useReportsStore()
+
+        return { store }
+    },
     name: 'ReportsView',
     data() {
         return {
@@ -69,6 +75,9 @@ export default defineComponent({
                 { id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }
             ]
         }
+    },
+    created() {
+        this.store.get_reports()
     }
 });
 </script>
