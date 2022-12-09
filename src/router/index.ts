@@ -8,6 +8,11 @@ import TestsView from '../views/client/TestsView.vue'
 import ReportsView from '../views/doctor/ReportsView.vue'
 import EditReportView from '../views/doctor/EditReportView.vue'
 
+import StrView from '../views/doctor/edit/StrView.vue'
+import IntView from '../views/doctor/edit/IntView.vue'
+import SelectView from '../views/doctor/edit/SelectView.vue'
+
+
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/login',
@@ -70,6 +75,33 @@ const routes: Array<RouteRecordRaw> = [
     },
     component: EditReportView
   },
+  {
+    path: '/edit-report/str',
+    name: 'str',
+    meta: {
+      authRequired: true,
+      editMode: true
+    },
+    component: StrView
+  },
+  {
+    path: '/edit-report/int',
+    name: 'int',
+    meta: {
+      authRequired: true,
+      editMode: true
+    },
+    component: IntView
+  },
+  {
+    path: '/edit-report/select',
+    name: 'select',
+    meta: {
+      authRequired: true,
+      editMode: true
+    },
+    component: SelectView
+  }
 ]
 
 const router = createRouter({

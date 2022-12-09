@@ -39,12 +39,17 @@
     align-items: center;
 }
 
+.edit-registration-block__subtitle,
 .edit-registration-block__title {
     padding: 40px;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
     color: #00ABAA;
+}
+
+.edit-registration-block__subtitle {
+    font-weight: 400;
 }
 
 .ul .li .image .icon {
@@ -64,6 +69,10 @@
 }
 
 .ul .li .data .select {
+    width: 200px;
+}
+
+.ul .li .data .select a {
     font-size: 24px;
     text-align: center;
     margin-left: 36px;
@@ -71,6 +80,7 @@
 
     cursor: pointer;
     color: #00ABAA;
+
 }
 
 .edit-btn {
@@ -80,4 +90,43 @@
 
     background: #FDD615;
     border-radius: 60px;
+}
+
+.str-btn {
+    width: 223.88px;
+    height: 70.65px;
+    margin-top: 44px;
+
+    background: #FDD615;
+    border-radius: 60px;
+}
+
+.str-btn a,
+.edit-btn a {
+    color: #000000;
+}
+
+.edit-fields .form-field {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 309px;
+    height: 50px;
+}
+
+.edit-fields .form-field input {
+    width: 309px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.edit-block__logo-block .logo-block {
+    width: 552px;
+    height: 552px;
+
+    background: #ECF6F8;
+    border-radius: 30px;
 }

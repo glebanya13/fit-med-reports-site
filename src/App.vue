@@ -1,6 +1,6 @@
 <template>
   <AppHeader v-if="($route.meta.authRequired && !$route.meta.editMode)" />
-  <router-view/>
+  <router-view />
   <AppFooter v-if="($route.meta.authRequired && !$route.meta.editMode)" />
 </template>
 

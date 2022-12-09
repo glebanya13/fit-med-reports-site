@@ -8,37 +8,31 @@
                         <div class="li">
                             <div class="image">
                                 <div class="icon">
-                                    <img class="logo" src="../../assets/edit/select.png" alt="select" />
+                                    <img class="logo" src="../../../assets/edit/select.png" alt="select" />
                                 </div>
                             </div>
                             <div class="data">
-                                <div class="select">
-                                    <router-link to="/edit-report/select">С вариантами</router-link>
-                                </div>
+                                <div class="select">С вариантами</div>
                             </div>
                         </div>
                         <div class="li">
                             <div class="image">
                                 <div class="icon">
-                                    <img class="logo" src="../../assets/edit/str.png" alt="str" />
+                                    <img class="logo" src="../../../assets/edit/str.png" alt="str" />
                                 </div>
                             </div>
                             <div class="data">
-                                <div class="select">
-                                    <router-link to="/edit-report/str">Текстовый</router-link>
-                                </div>
+                                <div class="select">Текстовый </div>
                             </div>
                         </div>
                         <div class="li">
                             <div class="image">
                                 <div class="icon">
-                                    <img class="logo" src="../../assets/edit/int.png" alt="int" />
+                                    <img class="logo" src="../../../assets/edit/int.png" alt="int" />
                                 </div>
                             </div>
                             <div class="data">
-                                <div class="select">
-                                    <router-link to="/edit-report/int">Численный</router-link>
-                                </div>
+                                <div class="select">Численный</div>
                             </div>
                         </div>
                     </div>
@@ -50,7 +44,7 @@
             </div>
             <div class="edit-block__logo-block">
                 <div class="logo-block-img">
-                    <img src="../../assets/edit/logo.png">
+                    <img src="../../../assets/edit/logo.png">
                 </div>
             </div>
         </div>
@@ -61,10 +55,10 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    name: 'EditReportView',
+    name: 'StrView',
 });
 </script>
   
 <style scoped>
-@import "../../styles/edit.css";
+@import "../../../styles/edit.css";
 </style>
