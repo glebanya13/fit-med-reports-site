@@ -10,6 +10,7 @@ import HomeView from '../views/client/HomeView.vue'
 import JournalView from '../views/client/JournalView.vue'
 import TestsView from '../views/client/TestsView.vue'
 import ChatView from '../views/client/ChatView.vue'
+import RecommendationsView from '../views/client/RecommendationsView.vue'
 
 
 import ReportsView from '../views/doctor/ReportsView.vue'
@@ -71,6 +72,14 @@ const routes: Array<RouteRecordRaw> = [
       authRequired: true
     },
     component: ChatView
+  },
+  {
+    path: '/recommendations',
+    name: 'recommendations',
+    meta: {
+      authRequired: true
+    },
+    component: RecommendationsView
   },
   // Doctor
   {
