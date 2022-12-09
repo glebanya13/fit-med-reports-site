@@ -7,17 +7,18 @@
 
             <ul class="nav-links">
                 <li v-for="link in links" :key="link.title">
-                    <router-link :to="link.path"
-                        :class="$route.fullPath == link.path ? 'active' : ''">{{ link.title }}</router-link>
+                    <router-link :to="link.path" :class="$route.fullPath == link.path ? 'active' : ''">{{ link.title
+                    }}</router-link>
                 </li>
             </ul>
             <ul class="nav-links nav-links-group">
                 <li>
-                    <a href="#">
+                    <a href="#" @click="show">
                         <div class="nav-links-menu">
                             <img src="../assets/appheader/ambulance.png" alt="ambulance">
                         </div>
                     </a>
+                    <AmbulanceModalVue v-show="dialog" />
                 </li>
                 <li>
                     <a href="#" @click="modal = !modal">
@@ -74,12 +75,15 @@
   
 <script lang="ts">
 import { defineComponent } from 'vue';
+import AmbulanceModalVue from './AmbulanceModal.vue';
 
 export default defineComponent({
     name: 'AppHeader',
+    components: { AmbulanceModalVue },
     data() {
         return {
             modal: false,
+            dialog: false,
             links: [
                 { title: "Дневник", path: "/journal" },
                 { title: "Награды", path: "/awards" },
@@ -87,6 +91,23 @@ export default defineComponent({
                 { title: "Тесты", path: "/tests" },
                 { title: "Мои врачи", path: "/doctors" },
             ],
+        }
+    },
+    methods: {
+        show() {
+            this.dialog = !this.dialog;
+
+            let home = document.getElementById('home');
+
+            if (this.dialog) {
+                if (home) {
+                    home.style.opacity = "0.1";
+                }
+            } else {
+                if (home) {
+                    home.style.opacity = "1";
+                }
+            }
         }
     }
 });

@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" id="home">
     <img class="home-image" src="../../assets/home/home.png" alt="">
 
     <button type="button" class='btn home-btn'>Пройти тестирование</button>

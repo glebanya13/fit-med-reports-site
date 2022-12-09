@@ -14,14 +14,11 @@ export default defineComponent({
     const store = useCounterStore()
 
     console.log(store);
-    
+
 
     return { store }
   },
-  
-  name: 'MainScreen',
-  computed: {
-    
-  }
+
+  name: 'MainScreen'
 });
 </script>
