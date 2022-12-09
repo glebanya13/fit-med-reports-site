@@ -59,12 +59,12 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#">
+                    <router-link to="/chat">
                         <div class="nav-links-menu">
                             <img src="../assets/appheader/chat.png" alt="chat">
                             <div class="notification"></div>
                         </div>
-                    </a>
+                    </router-link>
                 </li>
             </ul>
 

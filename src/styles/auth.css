@@ -13,6 +13,10 @@
 }
 
 .main-block__registration-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: #ECF6F8;
     border-radius: 50px 0px 0px 50px;
     width: 670px;
@@ -88,7 +92,7 @@
 }
 
 .form-buttons {
-    margin: 61px 0px 0px 0px;
+    margin: 61px 0px 0px 80px;
 }
 
 .button {
@@ -108,7 +112,7 @@
 }
 
 .form-link {
-    margin: 61px 0px 0px 0px;
+    margin: 61px 0px 0px 100px;
 }
 
 .link {

@@ -47,6 +47,14 @@
                 </div>
             </div>
         </div>
+
+        <div class="containers save-icon">
+            <div class="icons">
+                <div class="icon">
+                    <img src="../../assets/reports/save.png" alt="save">
+                </div>
+            </div>
+        </div>
     </div>
 </template>
   

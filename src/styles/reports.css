@@ -33,6 +33,13 @@
     cursor: pointer;
 }
 
+.save-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -300px;
+}
+
 .form-border {
     display: flex;
     min-width: 860px;

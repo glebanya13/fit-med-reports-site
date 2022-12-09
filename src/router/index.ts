@@ -1,10 +1,17 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+
+
 import LoginView from '../views/LoginView.vue'
 import RegView from '../views/RegView.vue'
+
+
 import AwardsView from '../views/client/AwardsView.vue'
 import HomeView from '../views/client/HomeView.vue'
 import JournalView from '../views/client/JournalView.vue'
 import TestsView from '../views/client/TestsView.vue'
+import ChatView from '../views/client/ChatView.vue'
+
+
 import ReportsView from '../views/doctor/ReportsView.vue'
 import EditReportView from '../views/doctor/EditReportView.vue'
 
@@ -56,6 +63,14 @@ const routes: Array<RouteRecordRaw> = [
       authRequired: true
     },
     component: TestsView
+  },
+  {
+    path: '/chat',
+    name: 'chat',
+    meta: {
+      authRequired: true
+    },
+    component: ChatView
   },
   // Doctor
   {

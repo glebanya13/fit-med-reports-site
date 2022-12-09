@@ -24,7 +24,7 @@
                     <div class="edit-fields">
 
                         <div class="form-field">
-                            <input type="text" placeholder="">
+                            <input type="number" placeholder="">
                         </div>
                     </div>
                 </div>
