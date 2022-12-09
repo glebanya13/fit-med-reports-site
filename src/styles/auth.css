@@ -20,9 +20,10 @@
     margin-top: 30px;
 }
 
-.form-fields {
+.edit-fields {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 

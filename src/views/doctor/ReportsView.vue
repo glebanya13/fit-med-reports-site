@@ -18,7 +18,9 @@
                     <img src="../../assets/reports/trash.png" alt="trash">
                 </div>
                 <div class="icon">
-                    <img src="../../assets/reports/edit.png" alt="edit">
+                    <router-link to="/edit-report">
+                        <img src="../../assets/reports/edit.png" alt="edit">
+                    </router-link>
                 </div>
                 <div class="icon" v-if="item.id == items.length">
                     <img src="../../assets/reports/plus.png" alt="plus">

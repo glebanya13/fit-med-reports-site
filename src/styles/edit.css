@@ -1,0 +1,83 @@
+.edit {
+    background-color: #00ABAA;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-block .edit-block__registration-block {
+    background-color: #ECF6F8;
+    border-radius: 50px 0px 0px 50px;
+    width: 500px;
+    height: 574px;
+    margin-top: 30px;
+}
+
+.edit-block__logo-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    background-color: #FDD615;
+    width: 670px;
+    height: 650px;
+
+    border-radius: 0px 30px 30px 0px;
+}
+
+.edit-block .edit-block__registration-block .form-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-registration-block__title {
+    padding: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #00ABAA;
+}
+
+.ul .li .image .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background: #FDD615;
+}
+
+.ul .li .image .icon img {
+    width: 29px;
+    height: 29px;
+}
+
+.ul .li .data .select {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 36px;
+    width: 170px;
+
+    cursor: pointer;
+    color: #00ABAA;
+}
+
+.edit-btn {
+    width: 223.88px;
+    height: 70.65px;
+    margin-top: 88px;
+
+    background: #FDD615;
+    border-radius: 60px;
+}

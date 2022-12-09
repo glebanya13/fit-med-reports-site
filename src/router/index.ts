@@ -6,6 +6,7 @@ import HomeView from '../views/client/HomeView.vue'
 import JournalView from '../views/client/JournalView.vue'
 import TestsView from '../views/client/TestsView.vue'
 import ReportsView from '../views/doctor/ReportsView.vue'
+import EditReportView from '../views/doctor/EditReportView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -59,6 +60,15 @@ const routes: Array<RouteRecordRaw> = [
       authRequired: true
     },
     component: ReportsView
+  },
+  {
+    path: '/edit-report',
+    name: 'edit',
+    meta: {
+      authRequired: true,
+      editMode: true
+    },
+    component: EditReportView
   },
 ]
 
