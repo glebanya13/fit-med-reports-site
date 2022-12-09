@@ -20,6 +20,7 @@
     margin-top: 30px;
 }
 
+.edit-block__logo-block-1,
 .edit-block__logo-block {
     display: flex;
     justify-content: center;
@@ -31,6 +32,13 @@
     height: 650px;
 
     border-radius: 0px 30px 30px 0px;
+}
+
+.edit-block__logo-block-1 {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
 }
 
 .edit-block .edit-block__registration-block .form-fields {
@@ -129,4 +137,75 @@
 
     background: #ECF6F8;
     border-radius: 30px;
+}
+
+.edit-block__banner-1,
+.edit-block__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 552px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+    background: #ECF6F8;
+    border-radius: 30px;
+}
+
+.edit-block__banner-1 {
+    width: 250px;
+    height: 250px;
+}
+
+.edit-block__banner .edit-fields .form-field {
+    margin-top: 175px;
+    width: 200px;
+}
+
+.edit-block__banner .edit-fields .form-field input {
+    text-align: center;
+    width: 200px;
+}
+
+.edit-block__banner .icons {
+    display: flex;
+
+    margin-top: 200px;
+}
+
+.edit-block__banner-1 .icons {
+    display: flex;
+}
+
+.edit-block__banner-1 .edit-fields {
+    margin-top: 40px;
+}
+
+.edit-block_plus,
+.edit-block__banner-1 .icons .icon,
+.edit-block__banner .icons .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-bottom: 50px;
+    background: #FDD615;
+
+    cursor: pointer;
+}
+
+.edit-block__banner-1 .edit-fields .form-field {
+    width: 200px;
+}
+
+.edit-block__banner-1 .edit-fields .form-field input {
+    text-align: center;
+
+    width: 200px;
 }
